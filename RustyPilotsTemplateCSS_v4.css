@@ -1,0 +1,26 @@
+/* Make the real container flex */
+.speakers-wrapper .speakers {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Now order works */
+.speakers-wrapper .speakers .speaker-image {
+  order: 0 !important;
+}
+
+.speakers-wrapper .speakers .speaker-name {
+  order: 1 !important;
+}
+
+.speakers-wrapper .speakers .speaker-title {
+  order: 2 !important;
+}
+
+.speakers-wrapper .speakers .speaker-bio {
+  order: 3 !important;
+}
+
+.speakers-wrapper .speakers .full-profile-link {
+  order: 4 !important;
+}
