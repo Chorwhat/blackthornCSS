@@ -1,0 +1,24 @@
+.speaker-details {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.speaker-details .speaker-name.speaker-name {
+  order: 1 !important;
+}
+
+.speaker-details .speaker-title.speaker-title {
+  order: 2 !important;
+}
+
+.speaker-details .speaker-bio.speaker-bio {
+  order: 3 !important;
+}
+
+.speaker-details .full-profile-link.full-profile-link {
+  order: 4 !important;
+}
+}
+
+
+
