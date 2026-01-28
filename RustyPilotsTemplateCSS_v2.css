@@ -1,0 +1,25 @@
+.speaker-details {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.speaker-image {
+  order: 0 !important;
+}
+
+.speaker-name {
+  order: 1 !important;
+}
+
+.speaker-title {
+  order: 2 !important;
+}
+
+.speaker-bio {
+  order: 3 !important;
+}
+
+.full-profile-link {
+  order: 4 !important;
+}
+
